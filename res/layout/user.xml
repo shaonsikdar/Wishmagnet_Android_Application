@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageViewUserImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/user_image" />
+
+        <TextView
+            android:id="@+id/textViewUserLastActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewUserImage"
+            android:layout_centerHorizontal="true"
+            android:text="@string/activeago"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.89" >
+
+        <Button
+            android:id="@+id/buttonUserIntention"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/userIntention" />
+
+        <Button
+            android:id="@+id/buttonUserProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonUserIntention"
+            android:layout_centerHorizontal="true"
+            android:text="@string/userProfile" />
+
+        <Button
+            android:id="@+id/buttonPhotos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/buttonUserIntention"
+            android:layout_below="@+id/buttonUserIntention"
+            android:layout_marginTop="24dp"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/buttonUserWall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/buttonUserProfile"
+            android:layout_alignLeft="@+id/buttonUserProfile"
+            android:text="@string/userWall" />
+
+    </RelativeLayout>
+
+</LinearLayout>

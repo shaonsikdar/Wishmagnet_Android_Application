@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#cfcfcf"
+        android:padding="5dp" >
+
+        <ImageView
+            android:id="@+id/imageViewMemberImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wm_logo"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp" />
+
+        <TextView
+            android:id="@+id/textViewMemberUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/imageViewMemberImage"
+            android:layout_toRightOf="@+id/imageViewMemberImage"
+            android:text="@string/username"
+            android:onClick="onClick"
+            android:clickable="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/textViewMemberActive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imageViewMemberImage"
+            android:layout_below="@+id/textViewMemberUsername"
+            android:text="@string/activeago"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </RelativeLayout>
+
+</LinearLayout>

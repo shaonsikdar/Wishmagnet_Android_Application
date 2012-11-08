@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="hello">Hello World, WishMagnetActivity!</string>
+    <string name="app_name">WishMagnet</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="rememberme">Remember Me</string>
+    <string name="Login">Log In</string>
+    <string name="join">Join</string>
+    <string name="loginwithfb">Login with Facebook</string>
+    <string name="accDet">Account Details</string>
+    <string name="proDet">Profile Details</string>
+    <string name="submitandcontinue">Submit and Continue</string>
+    <string name="unReq">Username (*Required)</string>
+    <string name="emailReq">Email (*Required)</string>
+    <string name="passReq">Choose a Password (*Required)</string>
+    <string name="ConfirmPassReq">Confirm Password (*Required)</string>
+    <string name="nameReq">Name (*Required)</string>
+    <string name="intention">Set your intention...</string>
+    <string name="set">Set!</string>
+    <string name="latestIntentions">Latest Intentions</string>
+    <string name="allMember">All Member</string>
+    <string name="show">"Show : "</string>
+    <string name="visual">Visualization</string>
+    <string name="search">Search</string>
+    <string name="recentcomments">Recent Comments</string>
+    <string name="searchMembers">Search Members...</string>
+    <string name="allmember">All Member [ 90 ]</string>
+    <string name="activeago">active 5 minutes ago</string>
+    <string name="recentComments">Recent Comments</string>
+    <string name="commentOn">on</string>
+    <string name="postNameComment">Post Name For Comment</string>
+    <string name="postNameCom">Post Name</string>
+   
+    <string-array name="navigation_list">
+        <item>Home</item>
+        <item>Activity</item>
+        <item>Members</item>
+        <item>Visualization</item>
+        <item>Latest Intension</item>
+        <item>Recent Comments</item>
+    </string-array>
+    
+    <string-array name="activity_show">
+        <item>Everything</item>
+        <item>Updates</item>
+        <item>Posts</item>
+        <item>Comments</item>
+        <item>Friendship</item>
+        <item>Newest </item>
+    </string-array>
+    
+    <string-array name = "members_order_array">
+       	<item>Last Active</item>
+       	<item>Newest Registered</item>
+       	<item>Alphabetical</item>
+    </string-array>
+    
+       	<string name="previous">Previous</string>
+       	<string name="next">Next</string>
+       	<string name="random">Random</string>
+       	<string name="setIntention">Set your intention...</string>
+       	<string name="setBtnIntention">Set!</string>
+       	<string name="numberoflike">1</string>
+       	<string name="personlike">person likes this</string>
+       	<string name="postname">postname</string>
+       	<string name="userWall">Wall</string>
+       	<string name="userProfile">Profile</string>
+       	<string name="userIntention">Intention</string>
+       	<string name="boldUsername">Bold Username</string>
+       	<string name="userBase">Base</string>
+       	<string name="profileName">"Name : "</string>
+       	<string name="serverName">name from server</string>
+       	<string name="userRegAt">Registered At :</string>
+       	<string name="listofIntention">List of intention</string>
+       	<string name="comment">on</string>
+    
+</resources>

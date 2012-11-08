@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/button1_actionProvider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Set Intension"
+        android:textSize="12sp"
+        android:background="@drawable/bg_btn_black" />
+    
+    <Button
+        android:id="@+id/button2_actionProvider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:textSize="12sp"
+        android:background="@drawable/bg_btn_black" />
+    
+    <Button
+        android:id="@+id/button3_actionProvider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textSize="12sp"
+        android:background="@drawable/bg_btn_black" />
+</LinearLayout>

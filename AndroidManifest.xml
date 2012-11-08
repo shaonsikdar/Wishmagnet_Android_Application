@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="your.wish.magnet"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="14" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/wm_logo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light" >
+        <activity
+            android:name=".WishMagnetActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="WishMagnet || Login Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignUpActivity"
+            android:label="WishMagnet || Join Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ActivityActivity"
+            android:label="WishMagnet || Activity Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="your.wish.magnet.HomeActivity"
+            android:label="WishMagnet || Home Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabactivity.LatestIntensions"
+            android:label="WishMagnet || Latest Intensions Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.UserInfoActivity"
+            android:label="WishMagnet || User Information Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".user.UserWishesActivity"
+            android:label="WishMagnet || User Wishes Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabactivity.MembersInfoActivity"
+            android:label="WishMagnet || Members Info Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VisualActivity"
+            android:label="WishMagnet || Visualization Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tabactivity.RecentCommentsActivity"
+            android:label="WishMagnet || Recent Comment Page"
+            android:screenOrientation="portrait" />
+        <activity android:name=".NavigatorActivity" />
+    </application>
+
+</manifest>
